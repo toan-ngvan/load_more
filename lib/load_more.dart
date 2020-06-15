@@ -1,6 +1,7 @@
 library load_more;
 
 import 'package:flutter/material.dart';
+import 'package:flutter/material.dart';
 
 /// A Calculator.
 class Calculator {
