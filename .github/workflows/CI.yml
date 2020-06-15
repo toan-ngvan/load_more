@@ -41,6 +41,7 @@ jobs:
         uses: rtCamp/action-slack-notify@v2.0.2
         env:
           SLACK_USERNAME: Danger
-          SLACK_TITLE: Post Title
-          SLACK_MESSAGE: 'Test message'
+          SLACK_TITLE: Danger output
           SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
+          MSG_MINIMAL: true
+          # SLACK_MESSAGE: 'Test message'
