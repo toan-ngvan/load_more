@@ -44,4 +44,4 @@ jobs:
           SLACK_TITLE: Danger output
           SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
           MSG_MINIMAL: true
-          # SLACK_MESSAGE: 'Test message'
+          SLACK_MESSAGE: 'Test message'
