@@ -36,12 +36,12 @@ jobs:
         if: always()
         env:
           DANGER_GITHUB_API_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      - name: Notify to slack
-        if: always()
-        uses: rtCamp/action-slack-notify@v2.0.2
-        env:
-          SLACK_USERNAME: Danger
-          SLACK_TITLE: Danger output
-          SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
-          MSG_MINIMAL: true
-          SLACK_MESSAGE: 'Test message'
+      # - name: Notify to slack
+      #   if: always()
+      #   uses: rtCamp/action-slack-notify@v2.0.2
+      #   env:
+      #     SLACK_USERNAME: Danger
+      #     SLACK_TITLE: Danger output
+      #     SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
+      #     MSG_MINIMAL: true
+      #     SLACK_MESSAGE: 'Test message'
